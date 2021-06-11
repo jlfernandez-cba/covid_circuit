@@ -7,8 +7,8 @@ import Contact from './Components/Contact'
 import Logos from './Components/Logos'
 import Footer from './Components/Footer'
 
-import StackedArea from './Components/graphs/StackedArea'
-import AreaChartFillByValue from './Components/graphs/AreaChartFillByValue'
+// import StackedArea from './Components/graphs/StackedArea'
+// import AreaChartFillByValue from './Components/graphs/AreaChartFillByValue'
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <About></About>
       <Results></Results>
 
+      {/*
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -34,6 +35,7 @@ function App() {
         </div>
       </div>
 
+      */}
 
       <Contact></Contact>
       <Logos></Logos>
