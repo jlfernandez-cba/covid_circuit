@@ -1,6 +1,7 @@
 import Header from './Components/Header'
 import WhatWeDo from './Components/WhatWeDo'
 import Results from './Components/Results'
+import ClinicalInterest from './Components/ClinicalInterest'
 import About from './Components/About'
 import Contact from './Components/Contact'
 
@@ -18,6 +19,7 @@ function App() {
       <WhatWeDo></WhatWeDo>
       <About></About>
       <Results></Results>
+      <ClinicalInterest></ClinicalInterest>
 
       {/*
       <div className="container">
