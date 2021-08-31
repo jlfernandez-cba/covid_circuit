@@ -19,7 +19,7 @@ export default function PreFooter() {
                     </div>
                     <div className="col-md-6 col-sm-6 col-xs-12">
                         <div className="logo-item">
-                            <a href="http://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer"><span><img alt="cba logo" src={LogoCBA} /></span></a>
+                            <a href="https://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer"><span><img alt="cba logo" src={LogoCBA} /></span></a>
                         </div>
                     </div>
                 </div>

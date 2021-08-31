@@ -7,14 +7,14 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-6">
               <div className="copyright-text">
-                <p><a href="https://github.com/onit4ku" target="_blank" rel="noreferrer"><span style={{color: '#fff'}}>Copyright</span></a> ©   <a href="http://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer">Clinical Bioinformatics Area</a> 2021</p>
+                <p><a href="https://github.com/onit4ku" target="_blank" rel="noreferrer"><span style={{color: '#fff'}}>Copyright</span></a> ©   <a href="https://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer">Clinical Bioinformatics Area</a> 2021</p>
               </div>
             </div>
             <div className="col-md-6">
               <div className="social-icons">
                 <ul>
                   <li>
-                    <a style={{background: 'transparent'}} target="_blank" rel="noreferrer" href="http://www.clinbioinfosspa.es/">
+                    <a style={{background: 'transparent'}} target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/">
                       <span><img src={LogoFundacionBlanco} alt="cba logo" /></span>
                     </a>
                   </li>
