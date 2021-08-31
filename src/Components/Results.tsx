@@ -52,6 +52,5 @@ export default function Results() {
         </div>
       </div>
     </div>
-
   )
 }
