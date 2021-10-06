@@ -10,16 +10,19 @@ import Footer from "./Components/Footer";
 
 // import AreaChartFillByValue from './Components/graphs/AreaChartFillByValue'
 import PercentStackedArea from "./Components/graphs/PercentStackedArea";
+import { RecoilRoot } from "recoil";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <WhatWeDo />
-      <About />
-      <Results />
-      <ClinicalInterest />
+    <RecoilRoot>
+      <div className="App">
+        <Header />
+        <WhatWeDo />
+        <About />
+        <Results />
+        <ClinicalInterest />
 
+        {/*
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -39,7 +42,7 @@ function App() {
 
             <div className="col-md-6">
               <div className="embed-responsive embed-responsive-16by9">
-                {/* <AreaChartFillByValue></AreaChartFillByValue> */}
+                {/* <AreaChartFillByValue></AreaChartFillByValue> * / }
               </div>
             </div>
           </div>
@@ -48,11 +51,13 @@ function App() {
         <br />
         <br />
       </div>
+      */ }
 
-      <Contact />
-      <Logos />
-      <Footer />
-    </div>
+        <Contact />
+        <Logos />
+        <Footer />
+      </div>
+    </RecoilRoot>
   );
 }
 

@@ -26,31 +26,30 @@ export default function Results() {
               <br />
               <p className="text-justify" style={{ fontSize: 18 }}><a href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a> represent all the samples currently sequenced:</p>
               <br />
-
-              <div className="col-md-6">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title="andalucia sars-cov tree"
-                    className="embed-responsive-item"
-                    frameBorder="0"
-                    src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe>
-                </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="embed-responsive embed-responsive-16by9">
+                <iframe
+                  title="andalucia sars-cov tree"
+                  className="embed-responsive-item"
+                  frameBorder="0"
+                  src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe>
               </div>
-
-              <div className="col-md-6">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title="andalucia sars-cov map"
-                    className="embed-responsive-item"
-                    frameBorder="0"
-                    src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe>
-                </div>
+            </div>
+            <div className="col-md-6">
+              <div className="embed-responsive embed-responsive-16by9">
+                <iframe
+                  title="andalucia sars-cov map"
+                  className="embed-responsive-item"
+                  frameBorder="0"
+                  src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
