@@ -1,7 +1,6 @@
 import React from 'react';
-import { ResponsiveContainer } from 'recharts';
 import RegionSelector from './RegionSelector';
-import SelectedChart from './SelectedChart';
+import SelectedChart from './SelectedChartLocal';
 
 
 function ProportionCharts() {

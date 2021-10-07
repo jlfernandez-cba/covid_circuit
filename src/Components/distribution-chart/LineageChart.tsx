@@ -52,7 +52,7 @@ function LineageChart(props: IProps) {
                 <YAxis domain={[0, 1]} ticks={[0, 0.25, 0.5, 0.75, 1]} />
                 <Tooltip formatter={tooltipFormatter} labelFormatter={tooltipLabelFormatter} />
                 <Legend layout="vertical" align="right" verticalAlign="middle" wrapperStyle={legendWrapperStyle} iconType="circle" />
-                {lineages.map((lineage: string, idx: number) => (<Area key={lineage} type="monotoneX" dataKey={lineage} stackId="1" stroke={colours[idx % colours.length]} fill={colours[idx % colours.length]} />))}
+                {lineages.map((lineage: string, idx: number) => (<Area key={lineage} type="monotone" dataKey={lineage} stackId="1" stroke={colours[idx % colours.length]} fill={colours[idx % colours.length]} />))}
             </AreaChart>
         </ResponsiveContainer>
     );
