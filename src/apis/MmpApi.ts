@@ -1,4 +1,4 @@
-const API_ENDPOINT = "http://iva-dev.clinbioinfosspa.es:9090/api/v1/";
+const API_ENDPOINT = "https://iva-dev.clinbioinfosspa.es:9090/api/v1/";
 
 
 class MmpApi {
