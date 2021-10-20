@@ -30,20 +30,24 @@ export default function Results() {
           </div>
           <div className="row">
             <div className="col-md-6">
-              <div className="embed-responsive embed-responsive-16by9">
+              <div className="embed-responsive embed-responsive-16by9 google-maps">
                 <iframe
+                  allowFullScreen
+                  frameBorder="0"
                   title="andalucia sars-cov tree"
                   className="embed-responsive-item"
-                  frameBorder="0"
+          
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe>
               </div>
             </div>
             <div className="col-md-6">
-              <div className="embed-responsive embed-responsive-16by9">
+              <div className="embed-responsive embed-responsive-16by9 google-maps">
                 <iframe
+                  allowFullScreen
+                  frameBorder="0"
                   title="andalucia sars-cov map"
                   className="embed-responsive-item"
-                  frameBorder="0"
+               
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe>
               </div>
             </div>
