@@ -1,20 +1,23 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import RegionSelector from './RegionSelector';
 import SelectedChart from './SelectedChartLocal';
 
 
 function ProportionCharts() {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12 ">
+        <Container>
+            <Row>
+                <Col xs={12} md={{ span: 8, offset: 2 }}>
                     <RegionSelector />
-                </div>
-                <div className="col-md-12 ">
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={12} md={{ span: 8, offset: 2 }}>
                     <SelectedChart />
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row >
+        </Container >
     );
 }
 

@@ -28,6 +28,13 @@ const dataMap = {
     "sevilla": datasevilla
 };
 
+for (const region in dataMap) {
+    const data = dataMap[region];
+    for (const item of data) {
+        item.date = Date.parse(item.date);
+    }
+}
+
 
 function SelectedChart() {
     const [region, _] = useRecoilState(selectedRegionState);
