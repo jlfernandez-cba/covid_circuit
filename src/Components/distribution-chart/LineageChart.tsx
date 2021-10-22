@@ -45,7 +45,7 @@ function LineageChart(props: IProps) {
     };
 
     return (
-        <ResponsiveContainer width="100%" aspect={1.8}>
+        <ResponsiveContainer width="100%" aspect={2}>
             <AreaChart data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" tickFormatter={d3.timeFormat('%y-%b')} />
