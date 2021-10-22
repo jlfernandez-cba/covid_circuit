@@ -1,4 +1,4 @@
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 import WhatWeDo from "./Components/WhatWeDo";
 import Results from "./Components/Results";
 import ClinicalInterest from "./Components/ClinicalInterest";
@@ -14,7 +14,7 @@ function App() {
   return (
     <RecoilRoot>
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         <WhatWeDo />
         <About />
         <Results />

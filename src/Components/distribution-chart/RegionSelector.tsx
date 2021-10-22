@@ -8,7 +8,7 @@ function RegionSelector() {
     const [region, setRegion] = useRecoilState(selectedRegionState);
     const onSelect = useCallback((k: any) => { setRegion(k as unknown as string); }, [setRegion]);
     return (
-        <Tabs activeKey={region} onSelect={onSelect} fill>
+        <Tabs className="TabsRegion" activeKey={region} onSelect={onSelect} fill>
             <Tab eventKey="andalucia" title="Andalucía" />
             <Tab eventKey="almeria" title="Almería" />
             <Tab eventKey="cadiz" title="Cádiz" />
