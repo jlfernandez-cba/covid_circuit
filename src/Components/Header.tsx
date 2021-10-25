@@ -1,68 +1,44 @@
 import flag_spa from "../img/spanish-language.svg";
 import flag_eng from "../img/english-language.svg";
 
+import { Navbar, Container, Nav, NavItem, NavLink } from "react-bootstrap";
+
 function Header() {
   return (
     <div className="header">
-      <div className="container">
-        <nav className="navbar navbar-inverse" role="navigation">
-          <div className="navbar-header">
-            <button type="button" id="nav-toggle" className="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-              <span className="icon-bar" />
-            </button>
-            <button className="buttonAnchor navbar-brand scroll-top">
-              <div className="logo" />
-            </button>
-          </div>
-          º
-          <div id="main-nav" className="collapse navbar-collapse">
-            <ul className="nav navbar-nav">
-              <li>
-                <a href="/HeaderSpa">
-                  <img src={flag_spa} height="30px" className="img-responsive center-block" alt="to spanish" />
-                </a>
-              </li>
-
-              <li>
-                <button className="scroll-top buttonAnchor">Inicio</button>
-              </li>
-              <li>
-                <button className="scroll-link buttonAnchor" data-id="about">
-                  About
-                </button>
-              </li>
-              <li>
-                <button className="scroll-link buttonAnchor" data-id="results">
-                  Results
-                </button>
-              </li>
-              <li>
-                <button className="scroll-link buttonAnchor" data-id="clinical-interest">
-                  Clinical Interest
-                </button>
-              </li>
-              <li>
-                <a
-                  href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all"
-                  target="_blank"
-                  rel="noreferrer"
-                  data-id="localNextrain"
-                >
-                  NextStrain Map
-                </a>
-              </li>
-              <li>
-                <button className="scroll-link buttonAnchor" data-id="contact">
-                  Contact
-                </button>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        sticky="top"
+        className="navbar navbar-inverse"
+        role="navigation"
+      >
+        <Container className="container">
+          <Navbar.Brand href="scroll-top">Covid-Circuit</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" className="navbar-toggle" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#results">Results</Nav.Link>
+              <Nav.Link href="#clinical-interest">Clinical Interest</Nav.Link>
+              <Nav.Link
+                href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all"
+                target="_blank"
+                rel="noreferrer"
+                data-id="localNextrain"
+              >
+                NextStrain Map
+              </Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+          <Navbar.Brand href="#">
+            <img src={flag_spa} width="30" height="30" className="d-inline-block" alt="spanish flag" />
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
     </div>
   );
 }
