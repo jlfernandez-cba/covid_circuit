@@ -1,3 +1,6 @@
+import flag_spa from "../img/spanish-language.svg";
+import flag_eng from "../img/english-language.svg";
+
 function Header() {
   return (
     <div className="header">
@@ -14,8 +17,15 @@ function Header() {
               <div className="logo" />
             </button>
           </div>
+          º
           <div id="main-nav" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
+              <li>
+                <a href="/HeaderSpa">
+                  <img src={flag_spa} height="30px" className="img-responsive center-block" alt="to spanish" />
+                </a>
+              </li>
+
               <li>
                 <button className="scroll-top buttonAnchor">Inicio</button>
               </li>
