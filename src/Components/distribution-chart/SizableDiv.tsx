@@ -1,11 +1,7 @@
-import React from 'react';
-
+import React from "react";
 
 interface IProps {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }
 
-
-function SizableDiv() {
-
-}
+function SizableDiv() {}

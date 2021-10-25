@@ -9,6 +9,8 @@ export default function Results() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
+              <br />
+              <br />
               <h4 style={{ fontSize: 20 }}>Results</h4>
             </div>
           </div>

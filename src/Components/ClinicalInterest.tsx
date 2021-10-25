@@ -7,6 +7,8 @@ function ClinicalInterest() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
+            <br />
+            <br />
               <h4 style={{ fontSize: 20 }}>Potential Clinical Interest</h4>
             </div>
           </div>

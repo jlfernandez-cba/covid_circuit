@@ -8,6 +8,9 @@ function About() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
+            <br />
+            <br />
+
               <h4 style={{ fontSize: 20 }}>SARS-CoV-2 whole genome sequencing circuit</h4>
             </div>
           </div>

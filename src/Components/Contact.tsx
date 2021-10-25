@@ -5,6 +5,8 @@ export default function Contact() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
+              <br />
+              <br />
               <h4>Contact</h4>
               <div className="line-dec" />
             </div>
