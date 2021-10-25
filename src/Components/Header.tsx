@@ -18,8 +18,8 @@ function Header() {
         <Container className="container">
           <Navbar.Brand href="scroll-top">Covid-Circuit</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" className="navbar-toggle" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+            <Nav>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#results">Results</Nav.Link>
               <Nav.Link href="#clinical-interest">Clinical Interest</Nav.Link>
@@ -34,9 +34,9 @@ function Header() {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand href="#">
+          {/* <Navbar.Brand href="#">
             <img src={flag_spa} width="30" height="30" className="d-inline-block" alt="spanish flag" />
-          </Navbar.Brand>
+          </Navbar.Brand> */}
         </Container>
       </Navbar>
     </div>
