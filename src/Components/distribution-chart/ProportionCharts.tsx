@@ -1,25 +1,23 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import RegionSelector from './RegionSelector';
-import SelectedChart from './SelectedChartLocal';
-
+import React from "react";
+// import { Col, Container, Row } from 'react-bootstrap';
+import RegionSelector from "./RegionSelector";
+import SelectedChart from "./SelectedChartLocal";
 
 function ProportionCharts() {
-    return (
-        <Container>
-            <Row>
-                <Col xs={12} md={{ span: 8, offset: 2 }}>
-                    <RegionSelector />
-                </Col>
-            </Row>
-            <Row>
-                <Col xs={12} md={{ span: 8, offset: 2 }}>
-                    <SelectedChart />
-                </Col>
-            </Row >
-        </Container >
-    );
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-xs-12 col-md-12 col-md-offset-2">
+          <RegionSelector />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-xs-12 col-md-12 col-md-offset-2">
+          <SelectedChart />
+        </div>
+      </div>
+    </div>
+  );
 }
-
 
 export default ProportionCharts;
