@@ -1,4 +1,5 @@
 
+import TranslatedText from "../i18n";
 import circuitImg1 from "../img/image1.png";
 
 function About() {
@@ -10,8 +11,7 @@ function About() {
             <div className="section-heading">
             <br />
             <br />
-
-              <h4 style={{ fontSize: 20 }}>SARS-CoV-2 whole genome sequencing circuit</h4>
+              <TranslatedText textKey="about_text_title"/>
             </div>
           </div>
         </div>
@@ -20,11 +20,11 @@ function About() {
             <div className="col-md-12">
               <img src={circuitImg1} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
-              <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Clinical circuit for WGS of SARS-CoV-2 for epidemiologic surveillance and medical decision support</i></p>
+              <TranslatedText textKey="about_text_fig1" />
               <br />
               <br />
-              <p style={{ textAlign: 'justify', fontSize: 18 }}>The operation of the circuit is as follows: SARS-CoV-2 naso-pharingeal samples (used for PCR testing) are collected in the main tertiary hospitals of the eight Andalusian provinces and sent to the two reference hospitals, the San Cecilio Clinical Hospital for Eastern Andalusia, and Virgen del Rocio University Hospital for Western Andalusia (Figure 1A and Table 1), where the viral RNA is extracted and subjected to WGS (Figure 1B). Raw sequencing data is transferred to the <a href="https://www.clinbioinfosspa.es/">Bioinformatics Area</a> (Figure 1C), processed, and indexed along with the meta-data automatically provided by the COVID registry (Figure 1D), previously collected from the hospitals (Figure 1E). The resulting findings (strain, VOIs and VOCs) are reported back to the sampling hospitals, for supporting clinical decision (Figure 1G), and relevant epidemiological information is reported to the COVID registry (Figure 1F).</p><br />
-              <p style={{ textAlign: 'center', fontSize: 16 }}><b>Table 1.</b> <i>Selection of samples per week for sequencing at different Andalusian provinces in primary care (PC) or hospitalized (H) patients</i></p>
+              <TranslatedText textKey="about_text_1" />
+              <TranslatedText textKey="about_text_Table1" />
               <br />
               <div className="table-responsive">
                 <table className="table table-bordered table-striped table-hover" style={{ textAlign: 'center' }}>
@@ -228,8 +228,7 @@ function About() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-justify" style={{ fontSize: 18 }}>Unlike in many other initiatives that consider exclusively the primary use of genomic data, here especial attention has been paid to the secondary use of genomic data for clinical research. Andalusia has a unique resource, the Population Health Database (<a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/profesionales/sistemas-de-informacion/base-poblacional-de-salud">BPS, after Base Poblacional de Salud</a>) . All the clinical information on all the patients of the Andalusian Health System is stored there (Figure 1H). </p>
-              <p className="text-justify" style={{ fontSize: 18 }}>The Bioinformatics Area submits all the viral genomes to BPS (Figure 1I), where they are permanently stored, linked to the clinical information of the patients. BPS has a procedure available to request data for secondary use in <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/sites/default/files/sincfiles/wsas-media-mediafile_sasdocumento/2019/BPS_Investigaci%C3%B3n.pdf">clinical research</a>. Finally, the Bioinformatic Area is responsible for the submission of the viral genomic sequences to ENA to make them available to the scientific community (Figure 1J).</p>
+              <TranslatedText textKey="about_text_2" />
             </div>
           </div>
         </div>

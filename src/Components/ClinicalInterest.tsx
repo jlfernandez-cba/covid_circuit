@@ -1,3 +1,5 @@
+import TranslatedText from "../i18n";
+
 import ProportionCharts from "./distribution-chart/ProportionCharts";
 
 function ClinicalInterest() {
@@ -9,7 +11,7 @@ function ClinicalInterest() {
             <div className="section-heading">
             <br />
             <br />
-              <h4 style={{ fontSize: 20 }}>Potential Clinical Interest</h4>
+            <TranslatedText textKey="clinicalInterest_text_title"/>
             </div>
           </div>
         </div>
@@ -17,11 +19,7 @@ function ClinicalInterest() {
           <div className="col-md-12">
             <ProportionCharts />
             <br />
-            <p style={{ textAlign: "center", fontSize: 16 }}>
-              <b>Charts.</b>{" "}
-              <i>
-                These charts refer to the samples sequenced as part of this study, which are selected according to their potential scientific interest. As such, the proportions do not reflect the relative natural prevalence in the general population.</i>
-            </p>
+            <TranslatedText textKey="clinicalInterest_text_charts"/>
             <br />
             <br />
             <br />
