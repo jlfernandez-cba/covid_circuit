@@ -26,6 +26,7 @@ function Header() {
                 rel="noreferrer"
                 data-id="localNextrain"
               >NextStrain Map</Nav.Link>
+              <Nav.Link href="#news">News</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

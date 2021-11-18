@@ -26,7 +26,7 @@ const translations = {
             <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Clinical circuit for WGS of SARS-CoV-2 for epidemiologic surveillance and medical decision support</i></p>
             ,
         "clinicalInterest_text_title":
-            <h4 style={{ fontSize: 20 }}>Potential Clinical Interest</h4>
+            <h4 style={{ fontSize: 20, marginBottom:30 }}>Potential Clinical Interest</h4>
             ,
         "clinicalInterest_text_charts": 
             <p style={{ textAlign: "center", fontSize: 16 }}>
@@ -41,6 +41,21 @@ const translations = {
             "results_text_2":
             <p className="text-justify" style={{ fontSize: 18 }}>The Bioinformatics Area reports back to the San Cecilio and the Virgen del Rocio reference hospitals the lineages of the virus sequenced, if these are VOIs or VOCs, as well as any new mutations of concern.<br /><br />An advanced tool developed by the area, which is freely available in the{" "}<a href="https://github.com/babelomics/impuSARS">impuSARS github repository</a>, is used to recover low quality sequences and we can impute lineage with accuracy for more than the 95% of the samples sequenced. See more details in the <a href="https://www.biorxiv.org/content/10.1101/2021.04.13.439668v1">preprint</a>.<br /><br /><a href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a>{" "}represent all the samples currently sequenced:<br /></p>
             ,
+            "news_title":
+            <h4 style = {{fontSize: 20}}>News</h4> 
+            ,
+            "news-heading":
+            <h4 className="news-heading">
+            Andalusia leads the genomic sequencing of the coronavirus at the national level
+            </h4>
+            , 
+"news-text":
+            <p>Informative video about the work carried out in the Andalusian Public Health System to sequence the coronavirus genome and better understand the disease. Made by 7TV in collaboration with the Ministry of Health and Families, the Progreso y Salud Foundation and Novartis.<br />
+                              <br />
+                              <br />
+                              </p>
+
+
         }, 
     "es": {
         "whatwedo_title":
@@ -66,7 +81,7 @@ const translations = {
             <p style = {{textAlign: 'center', fontSize: 16}}><b>Figura 1. </b> <i> Circuito clínico para WGS de SARS-CoV-2 para vigilancia epidemiológica y apoyo a decisiones médicas </ i> </p> 
             ,
         "clinicalInterest_text_title":
-            <h4 style = {{fontSize: 20}}>Interés clínico potencial</h4> 
+            <h4 style = {{fontSize: 20, marginBottom:30 }}>Interés clínico potencial</h4> 
             ,
         "clinicalInterest_text_charts": 
             <p style = {{textAlign: "center", fontSize: 16}}><b>Gráficos. </b> {""}<i>Estos gráficos se refieren a las muestras secuenciadas como parte de este estudio, que se seleccionan de acuerdo con su potencial interés científico. Como tal, las proporciones no reflejan la prevalencia natural relativa en la población general.</i></p> 
@@ -80,6 +95,17 @@ const translations = {
             "results_text_2":
             <p className = "text-justify" style = {{fontSize: 18}}>El Área de Bioinformática informa a los hospitales de referencia San Cecilio y Virgen del Rocío. linajes del virus secuenciado, si se trata de VOI o VOC, así como cualquier nueva mutación de interés. <br /><br />Una herramienta avanzada desarrollada por el área, que está disponible gratuitamente en el {""}<a href="https://github.com/babelomics/impuSARS"> repositorio de github impuSARS </a>, se utiliza para recuperar baja calidad secuencias y podemos imputar el linaje con precisión para más del 95% de las muestras secuenciadas. Ver más detalles en la <a href="https://www.biorxiv.org/content/10.1101/2021.04.13.439668v1"> preimpresión </a>.<br /><br /><a href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage"> Una instancia local de NextStrain </a> {""}representan todas las muestras secuenciadas actualmente:<br /></p> 
             ,
+            "news_title":
+            <h4 style = {{fontSize: 20}}>Prensa </h4> 
+            ,
+           "news-heading":
+            <h4 className="news-heading">
+            Andalucía lidera la secuenciación genómica del coronavirus a nivel nacional
+            </h4>
+            , 
+            "news-text":
+            <p>Video divulgativo sobre el trabajo que se realiza en el Sistema Sanitario Público de Andalucía para secuenciar el genoma del coronavirus y conocer mejor la enfermedad.
+            Realizado por 7TV en colaboración con la Consejería de Salud y Familias, la Fundación Progreso y Salud y Novartis.<br /><br /><br /></p>
         }
 };
 
