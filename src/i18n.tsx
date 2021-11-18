@@ -54,6 +54,10 @@ const translations = {
                               <br />
                               <br />
                               </p>
+        ,
+        "contact_title":
+            <h4 style = {{fontSize: 20}}>Contact</h4> 
+            ,
 
 
         }, 
@@ -106,7 +110,11 @@ const translations = {
             "news-text":
             <p>Video divulgativo sobre el trabajo que se realiza en el Sistema Sanitario Público de Andalucía para secuenciar el genoma del coronavirus y conocer mejor la enfermedad.
             Realizado por 7TV en colaboración con la Consejería de Salud y Familias, la Fundación Progreso y Salud y Novartis.<br /><br /><br /></p>
-        }
+       ,    "contact_title":
+            <h4 style = {{fontSize: 20}}>Contacto </h4> 
+            ,
+    
+    }
 };
 
 interface IProps {
