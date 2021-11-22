@@ -26,16 +26,38 @@ export default function Results() {
 
             <TranslatedText textKey="results_text_1"/>
 
+            </div>
+            <div className="col-md-6">
               
               <br />
               <img src={circuitImg2} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
+            </div>
+            <div className="col-md-6">
+            <br />
+            <br />
+            <br />
+            <br />
              
             <TranslatedText textKey="results_text_2"/>
              
             
             </div>
-          </div>
+
+
+            <div className="col-md-12">
+
+            <br />
+            <br />
+            <br />
+            <TranslatedText textKey="results_text_3"/>
+
+            </div>
+            </div>
+            <br />
+
+            <br />
+
           <div className="row">
             <div className="col-md-6">
               <div className="embed-responsive embed-responsive-16by9 google-maps">
