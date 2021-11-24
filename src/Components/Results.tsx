@@ -13,8 +13,7 @@ export default function Results() {
             <div className="section-heading">
               <br />
               <br />
-            <TranslatedText textKey="results_text_title"/>
-
+              <TranslatedText textKey="results_text_title" />
             </div>
           </div>
         </div>
@@ -24,39 +23,32 @@ export default function Results() {
               <br />
               <br />
 
-            <TranslatedText textKey="results_text_1"/>
-
+              <TranslatedText textKey="results_text_1" />
             </div>
             <div className="col-md-6">
-              
               <br />
               <img src={circuitImg2} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
             </div>
             <div className="col-md-6">
-            <br />
-            <br />
-            <br />
-            <br />
-             
-            <TranslatedText textKey="results_text_2"/>
-             
-            
-            </div>
+              <br />
+              <br />
+              <br />
+              <br />
 
+              <TranslatedText textKey="results_text_2" />
+            </div>
 
             <div className="col-md-12">
-
-            <br />
-            <br />
-            <br />
-            <TranslatedText textKey="results_text_3"/>
-
+              <br />
+              <br />
+              <br />
+              <TranslatedText textKey="results_text_3" />
             </div>
-            </div>
-            <br />
+          </div>
+          <br />
 
-            <br />
+          <br />
 
           <div className="row">
             <div className="col-md-6">
@@ -68,9 +60,9 @@ export default function Results() {
                   className="embed-responsive-item"
           
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
-
                 <a
                   target="_blank"
+                  rel="noreferrer noopener"
                   href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed"
                 >
                   {" "}
@@ -87,9 +79,9 @@ export default function Results() {
                   className="embed-responsive-item"
                
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
-
                 <a
                   target="_blank"
+                  rel="noreferrer noopener"
                   href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed"
                 >
                   <img src={geography} className="img-responsive center-block" alt="phylogeny" />
