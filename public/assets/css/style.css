@@ -176,8 +176,8 @@ a:hover {
   font-weight: bold;
 }
 
-.news-heading{
-  font-size:2rem
+.news-heading {
+  font-size: 2rem;
 }
 
 #news p {
@@ -360,6 +360,11 @@ body:after {
     margin: 0 0 20px;
   }
 }
-.navbar-brand, .nav-link{
+.navbar-brand,
+.nav-link {
   font-size: 2em;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #2e3848;
 }
