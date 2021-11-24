@@ -1,3 +1,5 @@
+import TranslatedText from "../i18n";
+
 export default function Contact() {
   return (
     <div id="contact" className="page-section">
@@ -7,7 +9,7 @@ export default function Contact() {
             <div className="section-heading">
               <br />
               <br />
-              <h4>Contact</h4>
+              <TranslatedText textKey="contact_title"/>
               <div className="line-dec" />
             </div>
           </div>

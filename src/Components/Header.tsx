@@ -1,7 +1,6 @@
-import flag_spa from "../img/spanish-language.svg";
-import flag_eng from "../img/english-language.svg";
-
-import { Navbar, Container, Nav, NavItem, NavLink } from "react-bootstrap";
+import React from 'react';
+import { Navbar, Container, Nav } from "react-bootstrap";
+import LanguageSwitcher from './LanguageSwitcher';
 
 function Header() {
   return (
@@ -12,8 +11,6 @@ function Header() {
         bg="dark"
         variant="dark"
         sticky="top"
-        className="navbar navbar-inverse"
-        role="navigation"
       >
         <Container className="container">
           <Navbar.Brand href="scroll-top">Covid-Circuit</Navbar.Brand>
@@ -28,15 +25,15 @@ function Header() {
                 target="_blank"
                 rel="noreferrer"
                 data-id="localNextrain"
-              >
-                NextStrain Map
-              </Nav.Link>
+              >NextStrain Map</Nav.Link>
+              <Nav.Link href="#news">News</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          {/* <Navbar.Brand href="#">
-            <img src={flag_spa} width="30" height="30" className="d-inline-block" alt="spanish flag" />
-          </Navbar.Brand> */}
+          <Navbar.Brand>
+            <LanguageSwitcher language="es" />
+            <LanguageSwitcher language="en" />
+          </Navbar.Brand>
         </Container>
       </Navbar>
     </div>

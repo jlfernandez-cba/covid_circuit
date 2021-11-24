@@ -9,6 +9,7 @@ import Logos from "./Components/Logos";
 import Footer from "./Components/Footer";
 
 import { RecoilRoot } from "recoil";
+import News from './Components/News';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Results />
         <ClinicalInterest />
+        <News />
         <Contact />
         <Logos />
         <Footer />

@@ -1,3 +1,5 @@
+import TranslatedText from "../i18n";
+
 import circuitImg2 from "../img/image2.png";
 import phylogeny from "../img/phylogeny.png";
 import geography from "../img/geography.png";
@@ -11,7 +13,7 @@ export default function Results() {
             <div className="section-heading">
               <br />
               <br />
-              <h4 style={{ fontSize: 20 }}>Results</h4>
+              <TranslatedText textKey="results_text_title" />
             </div>
           </div>
         </div>
@@ -20,32 +22,34 @@ export default function Results() {
             <div className="col-md-12">
               <br />
               <br />
-              <p className="text-justify" style={{ fontSize: 18 }}>
-                This circuit is operating since middle February and currently, the pace of sequencing is of 300-400 per week,
-                depending on the final results of quality control processes both in the RNA extraction and in the sequencing
-                processes.
-              </p>
+
+              <TranslatedText textKey="results_text_1" />
+            </div>
+            <div className="col-md-6">
               <br />
               <img src={circuitImg2} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
-              <p className="text-justify" style={{ fontSize: 18 }}>
-                The Bioinformatics Area reports back to the San Cecilio and the Virgen del Rocio reference hospitals the
-                lineages of the virus sequenced, if these are VOIs or VOCs, as well as any new mutations of concern.
-              </p>
-              <p className="text-justify" style={{ fontSize: 18 }}>
-                An advanced tool developed by the area, which is freely available in the{" "}
-                <a href="https://github.com/babelomics/impuSARS">impuSARS github repository</a>, is used to recover low quality
-                sequences and we can impute lineage with accuracy for more than the 95% of the samples sequenced. See more
-                details in the <a href="https://www.biorxiv.org/content/10.1101/2021.04.13.439668v1">preprint</a>.
-              </p>
+            </div>
+            <div className="col-md-6">
               <br />
-              <p className="text-justify" style={{ fontSize: 18 }}>
-                <a href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a>{" "}
-                represent all the samples currently sequenced:
-              </p>
               <br />
+              <br />
+              <br />
+
+              <TranslatedText textKey="results_text_2" />
+            </div>
+
+            <div className="col-md-12">
+              <br />
+              <br />
+              <br />
+              <TranslatedText textKey="results_text_3" />
             </div>
           </div>
+          <br />
+
+          <br />
+
           <div className="row">
             <div className="col-md-6">
               <div className="embed-responsive embed-responsive-16by9 google-maps">
@@ -56,9 +60,9 @@ export default function Results() {
                   className="embed-responsive-item"
           
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
-
                 <a
                   target="_blank"
+                  rel="noreferrer noopener"
                   href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed"
                 >
                   {" "}
@@ -75,9 +79,9 @@ export default function Results() {
                   className="embed-responsive-item"
                
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
-
                 <a
                   target="_blank"
+                  rel="noreferrer noopener"
                   href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed"
                 >
                   <img src={geography} className="img-responsive center-block" alt="phylogeny" />

@@ -161,9 +161,31 @@ a:hover {
   background-color: #fff;
   padding: 80px 0;
 }
-#clinical-interest .section-heading {
+#clinical-Interest .section-heading {
   margin-bottom: 60px;
 }
+
+#news {
+  padding: 80px 0;
+}
+
+#news .section-heading {
+  margin-bottom: 60px;
+}
+#news h4 {
+  font-weight: bold;
+}
+
+.news-heading {
+  font-size: 2rem;
+}
+
+#news p {
+  font-size: 18px;
+  text-align: center;
+  text-align: justify;
+}
+
 #what-we-do {
   background-image: url(../img/covid-19.xb28fa88aMD.png);
   width: 100%;
@@ -338,6 +360,11 @@ body:after {
     margin: 0 0 20px;
   }
 }
-.navbar-brand, .nav-link{
+.navbar-brand,
+.nav-link {
   font-size: 2em;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #2e3848;
 }
