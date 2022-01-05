@@ -13,8 +13,6 @@ export const NavigationProvider = (): ReactElement => {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="dashboard" element={<Dashboard />} />
-        {/* <Route path="orders" element={<Orders />} /> */}
-        {/* <Route path="customers" element={<Customers />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
