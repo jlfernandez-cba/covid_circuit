@@ -251,26 +251,7 @@ function About() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-justify" style={{ fontSize: 18 }}>
-                A diferencia de muchas otras iniciativas que consideran exclusivamente el uso primario de datos genómicos, aquí
-                se ha prestado especial atención al uso secundario de datos genómicos para la investigación clínica . Andalucía
-                cuenta con un recurso único, la Base de Datos de Salud de la Población (
-                <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/profesionales/sistemas-de-informacion/base-poblacional-de-salud">
-                  {" "}
-                  BPS, después Base Poblacional de Salud{" "}
-                </a>
-                ). Allí se almacena toda la información clínica de todos los pacientes del Sistema de Salud de Andalucía (Figura
-                1H). <br /> <br /> El Área de Bioinformática envía todos los genomas virales al BPS (Figura 1I), donde se
-                almacenan de forma permanente, vinculado a la información clínica de los pacientes. BPS dispone de un
-                procedimiento para solicitar datos para uso secundario en{" "}
-                <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/sites/default/files/sincfiles/wsas-media-mediafile_sasdocumento/2019/BPS_Investigaci%C3%B3n.pdf ">
-                  {" "}
-                  investigación clínica{" "}
-                </a>
-                . Finalmente, el Área Bioinformática se encarga del envío de las secuencias genómicas virales a ENA para
-                ponerlas a disposición de la comunidad científica (Figura 1J).{" "}
-              </p>
-            </div>
+              <p className="text-justify" style={{ fontSize: 18 }}>A diferencia de muchas otras iniciativas que consideran exclusivamente el uso primario de datos genómicos, aquí se ha prestado especial atención al uso secundario de datos genómicos para la investigación clínica. Andalucía cuenta con un recurso único, la <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/profesionales/sistemas-de-informacion/base-poblacional-de-salud"> Base Poblacional de Salud (BPS)</a>. Allí se almacena toda la información clínica de todos los pacientes del Sistema de Salud de Andalucía (Figura 1H). <br /> <br /> El Área de Bioinformática envía todos los genomas virales al BPS (Figura 1I), donde se almacenan de forma permanente, vinculado a la información clínica de los pacientes. BPS dispone de un procedimiento para solicitar datos para uso secundario en{" "}<a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/sites/default/files/sincfiles/wsas-media-mediafile_sasdocumento/2019/BPS_Investigaci%C3%B3n.pdf ">{" "}investigación clínica{" "}</a>. Finalmente, el Área Bioinformática se encarga del envío de las secuencias genómicas virales a ENA para ponerlas a disposición de la comunidad científica (Figura 1J).{" "}</p></div>
           </div>
         </div>
       </div>
