@@ -28,7 +28,7 @@ export default function PreFooter() {
                     <div className="col-md-4 col-sm-4 col-xs-12">
                         <div className="logo-item">
 
-                        <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/profesionales/sistemas-de-informacion/base-poblacional-de-salud" target="_blank" rel="noreferrer"><span><img alt="bps logo" src={LogoBPS} /></span></a>
+                            <a href="https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/profesionales/sistemas-de-informacion/base-poblacional-de-salud" target="_blank" rel="noreferrer"><span><img alt="bps logo" src={LogoBPS} /></span></a>
 
                         </div>
                     </div>

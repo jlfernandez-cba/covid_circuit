@@ -13,6 +13,8 @@ export default function News() {
               <br />
               <br />
               <TranslatedText textKey="news_title" />
+              <br />
+              <br />
             </div>
           </div>
         </div>

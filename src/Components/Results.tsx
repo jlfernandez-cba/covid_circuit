@@ -13,7 +13,11 @@ export default function Results() {
             <div className="section-heading">
               <br />
               <br />
+              <br />
+              <br />
               <TranslatedText textKey="results_text_title" />
+              <br />
+              <br />
             </div>
           </div>
         </div>
@@ -22,7 +26,8 @@ export default function Results() {
             <div className="col-md-12">
               <br />
               <br />
-
+              <br />
+              <br />
               <TranslatedText textKey="results_text_1" />
             </div>
             <div className="col-md-6">

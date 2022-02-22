@@ -9,9 +9,13 @@ function About() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
-            <br />
-            <br />
-              <TranslatedText textKey="about_text_title"/>
+              <br />
+              <br />
+              <br />
+              <br />
+              <TranslatedText textKey="about_text_title" />
+              <br />
+              <br />
             </div>
           </div>
         </div>

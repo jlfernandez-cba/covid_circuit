@@ -8,10 +8,15 @@ function WhatWeDo() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="left-text">
-                        <TranslatedText textKey="whatwedo_title"/>
                             <br />
-                         <TranslatedText textKey="whatwedo_txt"/>
-                            </div>
+                            <br />
+                            <TranslatedText textKey="whatwedo_title" />
+                            <br />
+                            <TranslatedText textKey="whatwedo_txt" />
+                            <br />
+                            <br />
+                            <br />
+                        </div>
                     </div>
                 </div>
             </div>

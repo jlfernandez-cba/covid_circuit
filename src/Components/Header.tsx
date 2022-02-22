@@ -1,5 +1,9 @@
 import React from 'react';
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { NavLink } from 'react-router-dom';
+
+
+import TranslatedText from "../i18n";
 import LanguageSwitcher from './LanguageSwitcher';
 
 function Header() {
@@ -13,21 +17,21 @@ function Header() {
         sticky="top"
       >
         <Container className="container">
-          <Navbar.Brand href="scroll-top">Covid-Circuit</Navbar.Brand>
+          <NavLink className="navbar-brand" to="/COVID_circuit">Covid-Circuit</NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" className="navbar-toggle" />
           <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
             <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#results">Results</Nav.Link>
-              <Nav.Link href="#clinical-interest">Clinical Interest</Nav.Link>
-              <Nav.Link
+              <NavLink className="navElement" to="about"><TranslatedText textKey="menuLink-about" /></NavLink>
+              <NavLink className="navElement" to="results"><TranslatedText textKey="menuLink-results" /></NavLink>
+              <NavLink className="navElement" to="clinical"><TranslatedText textKey="menuLink-clinical" /></NavLink>
+              <a className="navElement"
                 href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all"
                 target="_blank"
                 rel="noreferrer"
                 data-id="localNextrain"
-              >NextStrain Map</Nav.Link>
-              <Nav.Link href="#news">News</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              >NextStrain Map</a>
+              <NavLink className="navElement" to="news"><TranslatedText textKey="menuLink-news" /></NavLink>
+              <NavLink className="navElement" to="contact"><TranslatedText textKey="menuLink-contact" /></NavLink>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Brand>

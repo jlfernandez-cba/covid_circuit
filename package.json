@@ -1,7 +1,7 @@
 {
   "name": "covid_circuit",
   "version": "1.0.0",
-  "homepage": "https://www.clinbioinfosspa.es/COVID_circuit/",
+  "homepage": "https://www.clinbioinfosspa.es/COVID_circuit",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.7.0",

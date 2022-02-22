@@ -1,3 +1,11 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.Site-content {
+  flex: 1;
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +18,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 .footer {
   flex-shrink: 0;
@@ -72,18 +81,19 @@ p {
   line-height: 80px;
   padding: 0;
 }
-.navbar-nav > li > a {
+
+/* .navbar-nav > li > a { */
+
+.navElement {
   color: #fff !important;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 800;
   text-transform: uppercase;
   text-shadow: none;
   line-height: 80px;
   padding: 0;
   letter-spacing: 0.5px;
-}
-.navbar-nav > li {
-  margin-left: 45px;
+  margin-right: 20px;
 }
 .navbar-brand .logo {
   margin-top: 22px;
@@ -287,7 +297,8 @@ footer ul li a:hover {
   transition: all 0.5s;
 }
 body:after {
-  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png)
+    url(../img/next.png);
   display: none;
 }
 .google-maps {
@@ -365,6 +376,7 @@ body:after {
   font-size: 2em;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: #2e3848;
 }

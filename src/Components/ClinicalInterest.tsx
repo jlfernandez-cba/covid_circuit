@@ -9,9 +9,15 @@ function ClinicalInterest() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
-            <br />
-            <br />
-            <TranslatedText textKey="clinicalInterest_text_title"/>
+              <br />
+              <br />
+              <br />
+              <br />
+              <TranslatedText textKey="clinicalInterest_text_title" />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
           </div>
         </div>
@@ -19,7 +25,7 @@ function ClinicalInterest() {
           <div className="col-md-12">
             <ProportionCharts />
             <br />
-            <TranslatedText textKey="clinicalInterest_text_charts"/>
+            <TranslatedText textKey="clinicalInterest_text_charts" />
             <br />
             <br />
             <br />

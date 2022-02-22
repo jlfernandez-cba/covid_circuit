@@ -4,6 +4,14 @@ import selectedLanguage from './i18nState';
 
 const translations = {
   "en": {
+    "menuLink-about": "About",
+    "menuLink-results": "Results",
+    "menuLink-clinical": "Clinical Interest",
+    "menuLink-news": "News",
+    "menuLink-contact": "Contact",
+
+
+
     "whatwedo_title":
       <h4 style={{ textAlign: 'justify' }}>SARS-CoV-2 whole genome sequencing circuit in Andalusia</h4>
     ,
@@ -69,6 +77,14 @@ const translations = {
 
   },
   "es": {
+    "menuLink-about": "Acerca de",
+    "menuLink-results": "Resultados",
+    "menuLink-clinical": "Interés Clínico",
+    "menuLink-news": "Noticias",
+    "menuLink-contact": "Contacto",
+
+
+
     "whatwedo_title":
       <h4 style={{ textAlign: 'justify' }}> Circuito de secuenciación del genoma completo del SARS-CoV-2 en Andalucía </h4>
     ,
