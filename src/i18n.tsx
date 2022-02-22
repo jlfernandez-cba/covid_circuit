@@ -9,9 +9,6 @@ const translations = {
     "menuLink-clinical": "Clinical Interest",
     "menuLink-news": "News",
     "menuLink-contact": "Contact",
-
-
-
     "whatwedo_title":
       <h4 style={{ textAlign: 'justify' }}>SARS-CoV-2 whole genome sequencing circuit in Andalusia</h4>
     ,
@@ -54,8 +51,6 @@ const translations = {
       <p className="text-justify text-center" style={{ fontSize: 18 }}>
         <a href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a>{" "}represent all the samples currently sequenced:<br /></p>
     ,
-
-
     "news_title":
       <h4 style={{ fontSize: 20 }}>News</h4>
     ,
@@ -73,8 +68,6 @@ const translations = {
     "contact_title":
       <h4 style={{ fontSize: 20 }}>Contact</h4>
     ,
-
-
   },
   "es": {
     "menuLink-about": "Acerca de",
@@ -82,9 +75,6 @@ const translations = {
     "menuLink-clinical": "Interés Clínico",
     "menuLink-news": "Noticias",
     "menuLink-contact": "Contacto",
-
-
-
     "whatwedo_title":
       <h4 style={{ textAlign: 'justify' }}> Circuito de secuenciación del genoma completo del SARS-CoV-2 en Andalucía </h4>
     ,
@@ -97,7 +87,6 @@ const translations = {
     "about_text_1":
       <p style={{ textAlign: 'justify', fontSize: 18 }}>El funcionamiento del circuito es el siguiente: Las muestras nasofaríngeas del SARS-CoV-2 (utilizadas para las pruebas de PCR) se recogen en los principales hospitales terciarios de de las ocho provincias andaluzas y remitido a los dos hospitales de referencia, el Hospital Clínico San Cecilio de Andalucía Oriental y el Hospital Universitario Virgen del Rocío de Andalucía Occidental (Figura 1A y Tabla 1), donde se extrae el ARN viral y se somete a WGS (Figura 1A y Tabla 1). 1B). Los datos de secuenciación sin procesar se transfieren al <a href="https://www.clinbioinfosspa.es/"> Área de Bioinformática </a> (Figura 1C), se procesan e indexan junto con los metadatos proporcionados automáticamente por el registro del COVID (Figura 1D), recogido previamente de los hospitales (Figura 1E). Los hallazgos resultantes (cepa, VOI y VOC) se informan a los hospitales de muestreo, para respaldar la decisión clínica (Figura 1G), y la información epidemiológica relevante se reporta al registro COVID (Figura 1F). <br /> </p>
     ,
-
     "about_text_Table1":
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Tabla 1. </b> <i> Selección de muestras semanales para secuenciación en diferentes provincias andaluzas en atención primaria (AP) u hospitalizadas (H) pacientes </i> </p>
     ,
@@ -141,7 +130,6 @@ const translations = {
     , "contact_title":
       <h4 style={{ fontSize: 20 }}>Contacto </h4>
     ,
-
   }
 };
 
@@ -151,7 +139,8 @@ interface IProps {
 
 function TranslatedText(props: IProps) {
   const { textKey } = props;
-  const [language, setLanguage] = useRecoilState(selectedLanguage);
+  const [language] = useRecoilState(selectedLanguage);
+  // const [language, setLanguage] = useRecoilState(selectedLanguage);
   const languageTranslations = translations[language];
   return languageTranslations[textKey];
 }

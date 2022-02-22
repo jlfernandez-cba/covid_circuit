@@ -20,20 +20,17 @@ function App() {
     <RecoilRoot>
       <BrowserRouter>
         <div className="Site">
-
           <Header />
           <div className="Site-content">
             <Routes>
-
-              {/* english routes */}
-
               <Route path='/COVID_circuit' element={<WhatWeDo />} />
               <Route path='/about' element={<About />} />
               <Route path='/results' element={<Results />} />
               <Route path='/clinical' element={<ClinicalInterest />} />
               <Route path='/news' element={<News />} />
               <Route path='/contact' element={<Contact />} />
-              {/* spanish routes */}
+
+              <Route path='*' element={<WhatWeDo />}></Route>
             </Routes>
           </div>
           <Logos />
