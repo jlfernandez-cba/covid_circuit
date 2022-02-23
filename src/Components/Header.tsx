@@ -21,17 +21,17 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" className="navbar-toggle" />
           <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
             <Nav>
-              <NavLink className="navElement" to="about"><TranslatedText textKey="menuLink-about" /></NavLink>
-              <NavLink className="navElement" to="results"><TranslatedText textKey="menuLink-results" /></NavLink>
-              <NavLink className="navElement" to="clinical"><TranslatedText textKey="menuLink-clinical" /></NavLink>
+              <NavLink className="navElement" to="COVID_circuit/about"><TranslatedText textKey="menuLink-about" /></NavLink>
+              <NavLink className="navElement" to="COVID_circuit/results"><TranslatedText textKey="menuLink-results" /></NavLink>
+              <NavLink className="navElement" to="COVID_circuit/clinical"><TranslatedText textKey="menuLink-clinical" /></NavLink>
               <a className="navElement"
                 href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all"
                 target="_blank"
                 rel="noreferrer"
                 data-id="localNextrain"
               >NextStrain Map</a>
-              <NavLink className="navElement" to="news"><TranslatedText textKey="menuLink-news" /></NavLink>
-              <NavLink className="navElement" to="contact"><TranslatedText textKey="menuLink-contact" /></NavLink>
+              <NavLink className="navElement" to="COVID_circuit/news"><TranslatedText textKey="menuLink-news" /></NavLink>
+              <NavLink className="navElement" to="COVID_circuit/contact"><TranslatedText textKey="menuLink-contact" /></NavLink>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Brand>

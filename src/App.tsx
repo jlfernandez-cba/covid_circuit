@@ -23,12 +23,12 @@ function App() {
           <Header />
           <div className="Site-content">
             <Routes>
-              <Route path='/COVID_circuit' element={<WhatWeDo />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/results' element={<Results />} />
-              <Route path='/clinical' element={<ClinicalInterest />} />
-              <Route path='/news' element={<News />} />
-              <Route path='/contact' element={<Contact />} />
+              <Route path='COVID_circuit/' element={<WhatWeDo />} />
+              <Route path='COVID_circuit/about' element={<About />} />
+              <Route path='COVID_circuit/results' element={<Results />} />
+              <Route path='COVID_circuit/clinical' element={<ClinicalInterest />} />
+              <Route path='COVID_circuit/news' element={<News />} />
+              <Route path='COVID_circuit/contact' element={<Contact />} />
 
               <Route path='*' element={<WhatWeDo />}></Route>
             </Routes>
