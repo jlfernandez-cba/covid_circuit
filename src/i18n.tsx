@@ -31,7 +31,7 @@ const translations = {
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Clinical circuit for WGS of SARS-CoV-2 for epidemiologic surveillance and medical decision support</i></p>
     ,
     "clinicalInterest_text_title":
-      <h4 style={{ fontSize: 20, marginBottom: 30 }}>Potential Clinical Interest</h4>
+      <h4 style={{ fontSize: 20, marginBottom: 30 }}>Distribution of SARS-CoV-2 Lineages</h4>
     ,
     "clinicalInterest_text_charts":
       <p style={{ textAlign: "center", fontSize: 16 }}>
@@ -97,7 +97,7 @@ const translations = {
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 1. </b> <i> Circuito clínico para WGS de SARS-CoV-2 para vigilancia epidemiológica y apoyo a decisiones médicas </ i> </p>
     ,
     "clinicalInterest_text_title":
-      <h4 style={{ fontSize: 20, marginBottom: 30 }}>Interés clínico potencial</h4>
+      <h4 style={{ fontSize: 20, marginBottom: 30 }}>Distribución de linajes de SARS-CoV-2</h4>
     ,
     "clinicalInterest_text_charts":
       <p style={{ textAlign: "center", fontSize: 16 }}><b>Gráficos. </b> {""}<i>Estos gráficos se refieren a las muestras secuenciadas como parte de este estudio, que se seleccionan de acuerdo con su potencial interés científico. Como tal, las proporciones no reflejan la prevalencia natural relativa en la población general.</i></p>

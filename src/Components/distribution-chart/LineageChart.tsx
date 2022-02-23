@@ -1,4 +1,5 @@
 import React from 'react';
+import { Box } from '@mui/material';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import * as d3 from 'd3';
 
@@ -47,16 +48,18 @@ function LineageChart(props: IProps) {
     };
 
     return (
-        <ResponsiveContainer width="100%" aspect={2}>
-            <AreaChart data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" tickFormatter={d3.timeFormat('%b\'%y')} />
-                <YAxis domain={[0, 1]} ticks={[0, 0.25, 0.5, 0.75, 1]} />
-                <Tooltip formatter={tooltipFormatter} labelFormatter={tooltipLabelFormatter} />
-                <Legend layout="vertical" align="right" verticalAlign="middle" wrapperStyle={legendWrapperStyle} iconType="circle" />
-                {lineages.map((lineage: string, idx: number) => (<Area key={lineage} type="monotoneX" dataKey={lineage} stackId="1" stroke={colours[idx % colours.length]} fill={colours[idx % colours.length]} />))}
-            </AreaChart>
-        </ResponsiveContainer>
+        <Box paddingTop={3}>
+            <ResponsiveContainer width="100%" aspect={2}>
+                <AreaChart data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="date" tickFormatter={d3.timeFormat('%b\'%y')} tick={{ fontSize: "1.5rem" }} />
+                    <YAxis domain={[0, 1]} ticks={[0, 0.25, 0.5, 0.75, 1]} tick={{ fontSize: "1.5rem" }} />
+                    <Tooltip formatter={tooltipFormatter} labelFormatter={tooltipLabelFormatter} />
+                    <Legend layout="vertical" align="right" verticalAlign="middle" wrapperStyle={legendWrapperStyle} iconType="circle" />
+                    {lineages.map((lineage: string, idx: number) => (<Area key={lineage} type="monotoneX" dataKey={lineage} stackId="1" stroke={colours[idx % colours.length]} fill={colours[idx % colours.length]} />))}
+                </AreaChart>
+            </ResponsiveContainer>
+        </Box >
     );
 }
 
