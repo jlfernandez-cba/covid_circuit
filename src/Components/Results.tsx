@@ -3,6 +3,7 @@ import TranslatedText from "../i18n";
 import circuitImg2 from "../img/image2.png";
 import phylogeny from "../img/phylogeny.png";
 import geography from "../img/geography.png";
+import imgDownloads from "../img/imgDownloads.png";
 
 export default function Results() {
   return (
@@ -16,11 +17,11 @@ export default function Results() {
               <br />
               <br />
               <TranslatedText textKey="results_text_title" />
-              <br />
-              <br />
             </div>
           </div>
         </div>
+            <br />
+              <br />
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -33,15 +34,22 @@ export default function Results() {
             <div className="col-md-6">
               <br />
               <img src={circuitImg2} className="img-responsive center-block" alt="sequencing circuit" />
+              <TranslatedText textKey="results_text_2" />
               <br />
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <br />
               <br />
               <br />
               <br />
 
-              <TranslatedText textKey="results_text_2" />
+            </div> */}
+
+            <div className="col-md-6">
+              <br />
+              
+              <TranslatedText textKey="results_text_Downloads" />
+              <a target="_blank" rel="noreferrer" href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><img src={imgDownloads} className="img-responsive center-block" alt="sequencing circuit" /></a>
             </div>
 
             <div className="col-md-12">
@@ -54,7 +62,6 @@ export default function Results() {
           <br />
 
           <br />
-
           <div className="row">
             <div className="col-md-6">
               <div className="embed-responsive embed-responsive-16by9 google-maps">
@@ -93,8 +100,8 @@ export default function Results() {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-        </div>
       </div>
     </div>
   );
