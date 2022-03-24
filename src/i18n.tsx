@@ -40,9 +40,16 @@ const translations = {
     "results_text_title":
       <h4 style={{ fontSize: 20 }}>Results</h4>
     ,
-    "results_text_Downloads":
+    "results_text_conferences":
+      <h4 style={{ fontSize: 20 }}>The Andalusian COVID-circuit in International Conferences</h4>
+    ,
+    "results_text_Downloads_1_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}>Here you can view or download our poster <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+    ,
+    "results_text_Downloads_2_top100":
       <p className="text-justify" style={{ fontSize: 18 }}>Our paper on <b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b> is among the top 100 most dowloaded articles of <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf">Scientific Reports.</a></p>
     ,
+        
     "results_text_1":
       <p className="text-justify" style={{ fontSize: 18 }}>This circuit is operating since middle February and currently, the pace of sequencing is of 300-400 per week, depending on the final results of quality control processes both in the RNA extraction and in the sequencing processes.</p>
     ,
@@ -108,8 +115,14 @@ const translations = {
     "results_text_title":
       <h4 style={{ fontSize: 20 }}>Resultados</h4>
     ,
-        "results_text_Downloads":
+    "results_text_Downloads_1_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}>Aquí puedes consultar o descargar nuestro póster <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+    ,
+        "results_text_Downloads_2_top100":
       <p className="text-justify" style={{ fontSize: 18 }}>Nuestro artículo <b>"Real World Evidence of vitamin D use and mortality rate of COVID-19"</b> está entre los 100 artículos más descargados de <a target="_blank" rel="noreferrer" href="https://www.nature.com/articles/s41598-021-02701-5.pdf">Scientific Reports.</a></p>
+    ,
+        "results_text_conferences":
+      <h4 style={{ fontSize: 20 }}>El circuito COVID de Andalucía en Congresos Internacionales</h4>
     ,
     "results_text_1":
       <p className="text-justify" style={{ fontSize: 18 }}>Este circuito está en funcionamiento desde mediados de febrero y actualmente, el ritmo de secuenciación es de 300-400 por semana, dependiendo de los resultados finales de los procesos de control de calidad tanto en la extracción de ARN como en la secuenciación Procesos.</p>
@@ -120,7 +133,7 @@ const translations = {
     ,
     "results_text_3":
       <p className="text-justify text-center" style={{ fontSize: 18 }}>
-        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage"> Una instancia local de NextStrain </a> {""}representan todas las muestras secuenciadas actualmente:<br /></p>
+        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage"> Una instancia local de NextStrain </a> {""}representa las muestras secuenciadas actualmente:<br /></p>
     ,
     "news_title":
       <h4 style={{ fontSize: 20 }}>Prensa </h4>
