@@ -1,6 +1,8 @@
 
 import TranslatedText from "../i18n";
 import circuitImg1 from "../img/image1.png";
+import diagramFigure2 from "../img/sarscov2_workflow_diagram.pptx.svg";
+
 
 function About() {
   return (
@@ -28,8 +30,11 @@ function About() {
               <br />
               <br />
               <TranslatedText textKey="about_text_1" />
+              <img src={diagramFigure2} className="img-responsive center-block" alt="sequencing circuit" />
+              <br />
               <TranslatedText textKey="about_text_Table1" />
               <br />
+
               <div className="table-responsive">
                 <table className="table table-bordered table-striped table-hover" style={{ textAlign: 'center' }}>
                   <tbody>
