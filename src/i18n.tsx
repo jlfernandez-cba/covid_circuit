@@ -30,6 +30,9 @@ const translations = {
     "about_text_fig1":
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 1.</b> <i>Clinical circuit for WGS of SARS-CoV-2 for epidemiologic surveillance and medical decision support</i></p>
     ,
+    "about_text_fig2":
+    <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figure 2. </b> <i>Bioinformatic workflow for SARS-CoV-2 data</ i> </p>
+    ,
     "clinicalInterest_text_title":
       <h4 style={{ fontSize: 20, marginBottom: 30 }}>Distribution of SARS-CoV-2 Lineages</h4>
     ,
@@ -43,11 +46,17 @@ const translations = {
     "results_text_conferences":
       <h4 style={{ fontSize: 20 }}>The Andalusian COVID-circuit in International Conferences</h4>
     ,
+    "results_text_Downloads_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}>Here you can view or download our posters: </p>
+    ,
     "results_text_Downloads_1_poster":
-      <p className="text-justify" style={{ fontSize: 18 }}>Here you can view or download our poster <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+      <p className="text-justify" style={{ fontSize: 18 }}><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+    ,
+        "results_text_Downloads_2_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><b>"Impact of SARS-CoV-2 lineages on the survival of hospitalized patients"</b> </a></p>
     ,
     "results_text_Downloads_2_top100":
-      <p className="text-justify" style={{ fontSize: 18 }}>Our paper on <b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b> is among the top 100 most dowloaded articles of <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf">Scientific Reports.</a></p>
+      <p className="text-justify" style={{ fontSize: 18 }}>Our paper on <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b></a> is among the top 100 most dowloaded articles of <a href="https://www.nature.com/collections/fhhdbhejca/?sap-outbound-id=0FAA2601713AAD4A5CA1D416B9988FC308869765&utm_source=hybris-campaign&utm_medium=email&utm_campaign=000_WANJ01_0000020639_HSCR_41598_CON1_GL_PHSS_TOP21_T100_Phys&utm_content=EN_internal_38720_20220321&mkt-key=42010A0550671EDA9BA9E11DF2291A52">Scientific Reports.</a></p>
     ,
         
     "results_text_1":
@@ -60,6 +69,9 @@ const translations = {
     "results_text_3":
       <p className="text-justify text-center" style={{ fontSize: 18 }}>
         <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a>{" "}represent all the samples currently sequenced:<br /></p>
+    ,
+                "results_text_relatedWorks":
+      <h4 style={{ fontSize: 20 }}>Another related works</h4>
     ,
     "news_title":
       <h4 style={{ fontSize: 20 }}>News</h4>
@@ -106,6 +118,10 @@ const translations = {
     "about_text_fig1":
       <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 1. </b> <i> Circuito clínico para WGS de SARS-CoV-2 para vigilancia epidemiológica y apoyo a decisiones médicas </ i> </p>
     ,
+    "about_text_fig2":
+      <p style={{ textAlign: 'center', fontSize: 16 }}><b>Figura 2. </b> <i>Flujo de trabajo bioinformático para datos de SARS-CoV-2</ i> </p>
+    ,
+        
     "clinicalInterest_text_title":
       <h4 style={{ fontSize: 20, marginBottom: 30 }}>Distribución de linajes de SARS-CoV-2</h4>
     ,
@@ -115,11 +131,17 @@ const translations = {
     "results_text_title":
       <h4 style={{ fontSize: 20 }}>Resultados</h4>
     ,
+        "results_text_Downloads_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}>Aquí puedes consultar o descargar nuestros póster:</p>
+    ,
     "results_text_Downloads_1_poster":
-      <p className="text-justify" style={{ fontSize: 18 }}>Aquí puedes consultar o descargar nuestro póster <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+      <p className="text-justify" style={{ fontSize: 18 }}><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
+    ,
+    "results_text_Downloads_2_poster":
+      <p className="text-justify" style={{ fontSize: 18 }}><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><b>"Impact of SARS-CoV-2 lineages on the survival of hospitalized patients"</b> </a></p>
     ,
         "results_text_Downloads_2_top100":
-      <p className="text-justify" style={{ fontSize: 18 }}>Nuestro artículo <b>"Real World Evidence of vitamin D use and mortality rate of COVID-19"</b> está entre los 100 artículos más descargados de <a target="_blank" rel="noreferrer" href="https://www.nature.com/articles/s41598-021-02701-5.pdf">Scientific Reports.</a></p>
+      <p className="text-justify" style={{ fontSize: 18 }}>Nuestro artículo <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b></a> está entre los 100 artículos más descargados de <a target="_blank" rel="noreferrer" href="https://www.nature.com/collections/fhhdbhejca/?sap-outbound-id=0FAA2601713AAD4A5CA1D416B9988FC308869765&utm_source=hybris-campaign&utm_medium=email&utm_campaign=000_WANJ01_0000020639_HSCR_41598_CON1_GL_PHSS_TOP21_T100_Phys&utm_content=EN_internal_38720_20220321&mkt-key=42010A0550671EDA9BA9E11DF2291A52">Scientific Reports.</a></p>
     ,
         "results_text_conferences":
       <h4 style={{ fontSize: 20 }}>El circuito COVID de Andalucía en Congresos Internacionales</h4>
@@ -135,8 +157,11 @@ const translations = {
       <p className="text-justify text-center" style={{ fontSize: 18 }}>
         <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage"> Una instancia local de NextStrain </a> {""}representa las muestras secuenciadas actualmente:<br /></p>
     ,
+            "results_text_relatedWorks":
+      <h4 style={{ fontSize: 20 }}>Otros trabajos relacionados</h4>
+    ,
     "news_title":
-      <h4 style={{ fontSize: 20 }}>Prensa </h4>
+      <h4 style={{ fontSize: 20 }}>Prensa</h4>
     ,
     "news-heading":
       <h4 className="news-heading">

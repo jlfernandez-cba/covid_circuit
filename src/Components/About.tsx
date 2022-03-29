@@ -1,8 +1,8 @@
 
 import TranslatedText from "../i18n";
 import circuitImg1 from "../img/image1.png";
-import diagramFigure2 from "../img/sarscov2_workflow_diagram.pptx.svg";
-
+import diagramFigure from "../img/sarscov2_workflow_diagram.pptx.svg";
+import diagramFigure2 from "../img/sarscov2_workflow_diagram.png";
 
 function About() {
   return (
@@ -11,13 +11,9 @@ function About() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-heading">
-              <br />
-              <br />
-              <br />
-              <br />
+              <br /><br /><br /><br />
               <TranslatedText textKey="about_text_title" />
-              <br />
-              <br />
+              <br /><br />
             </div>
           </div>
         </div>
@@ -25,16 +21,15 @@ function About() {
           <div className="row">
             <div className="col-md-12">
               <img src={circuitImg1} className="img-responsive center-block" alt="sequencing circuit" />
-              <br />
+              <br /><br />
               <TranslatedText textKey="about_text_fig1" />
-              <br />
-              <br />
+              <br /><br />
               <TranslatedText textKey="about_text_1" />
-              <img src={diagramFigure2} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
-              <TranslatedText textKey="about_text_Table1" />
+              <img src={diagramFigure} className="img-responsive center-block" alt="sequencing circuit" />
               <br />
-
+              <TranslatedText textKey="about_text_fig2" />
+              <br />
               <div className="table-responsive">
                 <table className="table table-bordered table-striped table-hover" style={{ textAlign: 'center' }}>
                   <tbody>
@@ -236,6 +231,8 @@ function About() {
                     </tr>
                   </tbody>
                 </table>
+                              <TranslatedText textKey="about_text_Table1" />
+              <br />
               </div>
               <TranslatedText textKey="about_text_2" />
             </div>

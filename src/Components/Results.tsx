@@ -6,6 +6,7 @@ import geography from "../img/geography.png";
 import imgDownloads from "../img/imgDownloads.png";
 import imgViBioM2022 from "../img/ViBioM2022banner.jpg";
 import poster from "../img/poster.png";
+import poster2 from "../img/poster2.png";
 
 export default function Results() {
   return (
@@ -102,18 +103,55 @@ export default function Results() {
                     <br /><br /><br /><br />
                 </div>
               </div>
-                <div className="row">
+              <div className="row">
+                <div className="col-md-12">
+                <b><TranslatedText textKey="results_text_Downloads_poster" /></b>
+               <br /> <br />
+                  
+              </div>
+                
               <div className="col-md-6">
                 <TranslatedText textKey="results_text_Downloads_1_poster" />
-               <br /> <br /> <br />
-                  <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><img src={poster} className="img-responsive center-block" alt="sequencing circuit" /></a>
+                <br /> <br />
+                  <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><img src={poster} className="img-responsive center-block" alt="andalusian circuit poster" /></a>
               </div>
               
               <div className="col-md-6">
-                <TranslatedText textKey="results_text_Downloads_2_top100" />
-                <br />
-                  <a target="_blank" rel="noreferrer" href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><img src={imgDownloads} className="img-responsive center-block" alt="sequencing circuit" /></a>
+          <TranslatedText textKey="results_text_Downloads_2_poster" />
+               <br /> <br />
+                  <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><img src={poster2} className="img-responsive center-block" alt="Impact of SARS-CoV-2 poster" /></a>
+             
               </div>
+            </div>
+            </div>
+
+          </div>
+
+          <div className="page-section" id="RelatedWorks">
+            <div className="container">
+                <div className="row">
+                  <div className="col-md-12">                  
+                    <div className="section-heading">
+                      <TranslatedText textKey="results_text_relatedWorks" />
+                      <br />
+                    <br /><br /><br /><br />
+                    </div>
+           
+                </div>
+              </div>
+                <div className="row">              
+              <div className="col-md-6">
+                <TranslatedText textKey="results_text_Downloads_2_top100" />
+                  <br />
+                  <a target="_blank" rel="noreferrer" href="https://www.nature.com/collections/fhhdbhejca/?sap-outbound-id=0FAA2601713AAD4A5CA1D416B9988FC308869765&utm_source=hybris-campaign&utm_medium=email&utm_campaign=000_WANJ01_0000020639_HSCR_41598_CON1_GL_PHSS_TOP21_T100_Phys&utm_content=EN_internal_38720_20220321&mkt-key=42010A0550671EDA9BA9E11DF2291A52"><img src={imgDownloads} className="img-responsive center-block" alt="sequencing circuit" /></a>
+              </div>
+              <div className="col-md-6">
+                  <h2><a href="https://academic.oup.com/gigascience/article/10/12/giab078/6448505">Highly accurate whole-genome imputation of SARS-CoV-2 from partial or low-quality sequences</a></h2>
+                  <p className="text-justify">Francisco M Ortuño, Carlos Loucera, Carlos S Casimiro-Soriguer, Jose A Lepe, Pedro Camacho Martinez, Laura Merino Diaz, Adolfo de Salazar, Natalia Chueca, Federico García, Javier Perez-Florido, Joaquin Dopazo</p>
+                  <p> <a href="https://academic.oup.com/gigascience/article-pdf/10/12/giab078/41474609/giab078.pdf"><img width="19" height="24" src="https://oup.silverchair-cdn.com/UI/app/svg/pdf.svg" alt="pdf icon" /> </a> </p>
+                  <br />
+                  <hr />
+                </div>
             </div>
             </div>
 
