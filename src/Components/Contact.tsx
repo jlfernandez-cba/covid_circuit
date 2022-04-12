@@ -8,9 +8,10 @@ export default function Contact() {
           <div className="col-md-12">
             <div className="section-heading">
               <br />
-              <br />
+              <br />   <hr style={{ height:"15px"}} />
               <TranslatedText textKey="contact_title"/>
-              <div className="line-dec" />
+              <hr style={{ height:"5px"}} />
+              
             </div>
           </div>
         </div>

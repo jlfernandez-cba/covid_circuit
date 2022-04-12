@@ -1,8 +1,7 @@
 
 import TranslatedText from "../i18n";
 import circuitImg1 from "../img/image1.png";
-import diagramFigure from "../img/sarscov2_workflow_diagram.pptx.svg";
-import diagramFigure2 from "../img/sarscov2_workflow_diagram.png";
+import diagramFigure from "../img/sarscov2_workflow_diagram.png";
 
 function About() {
   return (
@@ -12,7 +11,9 @@ function About() {
           <div className="col-md-12">
             <div className="section-heading">
               <br /><br /><br /><br />
+              <hr style={{ height: "15px" }} />
               <TranslatedText textKey="about_text_title" />
+              <hr style={{ height: "5px" }} />
               <br /><br />
             </div>
           </div>
@@ -231,8 +232,8 @@ function About() {
                     </tr>
                   </tbody>
                 </table>
-                              <TranslatedText textKey="about_text_Table1" />
-              <br />
+                <TranslatedText textKey="about_text_Table1" />
+                <br />
               </div>
               <TranslatedText textKey="about_text_2" />
             </div>
