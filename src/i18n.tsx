@@ -6,7 +6,7 @@ const translations = {
   "en": {
     "menuLink-about": "About",
     "menuLink-results": "Results",
-    "menuLink-clinical": "Clinical Interest",
+    "menuLink-clinical": "Lineages",
     "menuLink-news": "News",
     "menuLink-contact": "Contact",
     "whatwedo_title":
@@ -94,7 +94,7 @@ const translations = {
   "es": {
     "menuLink-about": "Acerca de",
     "menuLink-results": "Resultados",
-    "menuLink-clinical": "Interés Clínico",
+    "menuLink-clinical": "Linajes",
     "menuLink-news": "Noticias",
     "menuLink-contact": "Contacto",
     "whatwedo_title":
