@@ -47,13 +47,19 @@ const translations = {
       <h4 style={{ fontSize: 20 }}>The Andalusian COVID-circuit in International Conferences</h4>
     ,
     "results_text_Downloads_poster":
-      <p className="text-justify" >Here you can view or download our posters: </p>
+      <h4 className="text-justify" >Here you can view or download our posters: </h4>
     ,
     "results_text_Downloads_1_poster":
       <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
     ,
     "results_text_Downloads_2_poster":
       <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><b>"Impact of SARS-CoV-2 lineages on the survival of hospitalized patients"</b> </a></p>
+    ,
+    "results_text_Downloads_3_poster":
+    <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Circuito secuenciacion genomica del SARS-CoV-2 Andalucia.pdf"><b>"Circuito secuenciacion genomica del SARS-CoV-2 Andalucia"</b> </a></p>
+    ,
+    "results_text_Downloads_4_poster":
+    <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/poster_SEIMC.pdf"><b>"Comparación entre los pipelines de Nanopore e Illumina para la secuenciación masiva de SARS-CoV-2"</b> </a></p>
     ,
     "results_text_Downloads_2_top100":
       <p className="text-justify" >Our paper on <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b></a> is among the top 100 most dowloaded articles of <a href="https://www.nature.com/collections/fhhdbhejca/?sap-outbound-id=0FAA2601713AAD4A5CA1D416B9988FC308869765&utm_source=hybris-campaign&utm_medium=email&utm_campaign=000_WANJ01_0000020639_HSCR_41598_CON1_GL_PHSS_TOP21_T100_Phys&utm_content=EN_internal_38720_20220321&mkt-key=42010A0550671EDA9BA9E11DF2291A52">Scientific Reports.</a></p>
@@ -132,13 +138,19 @@ const translations = {
       <h4>Resultados</h4>
     ,
     "results_text_Downloads_poster":
-      <p className="text-justify" >Aquí puedes consultar o descargar nuestros póster:</p>
+      <h4 className="text-justify" >Aquí puedes consultar o descargar nuestros póster:</h4>
     ,
     "results_text_Downloads_1_poster":
       <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/TheAndalusiancircuitforSARS-CoV-2%20WGS.pdf"><b>"The Andalusian circuit for SARS-CoV-2 whole genome sequencing"</b> </a></p>
     ,
     "results_text_Downloads_2_poster":
       <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><b>"Impact of SARS-CoV-2 lineages on the survival of hospitalized patients"</b> </a></p>
+    ,
+    "results_text_Downloads_3_poster":
+    <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Circuito secuenciacion genomica del SARS-CoV-2 Andalucia.pdf"><b>"Circuito secuenciacion genomica del SARS-CoV-2 Andalucia"</b> </a></p>
+    ,
+    "results_text_Downloads_4_poster":
+    <p className="text-justify" ><a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/poster_SEIMC.pdf"><b>"Comparación entre los pipelines de Nanopore e Illumina para la secuenciación masiva de SARS-CoV-2"</b> </a></p>
     ,
     "results_text_Downloads_2_top100":
       <p className="text-justify" >Nuestro artículo <a href="https://www.nature.com/articles/s41598-021-02701-5.pdf"><b>Real World Evidence of vitamin D use and mortality rate of COVID-19</b></a> está entre los 100 artículos más descargados de <a target="_blank" rel="noreferrer" href="https://www.nature.com/collections/fhhdbhejca/?sap-outbound-id=0FAA2601713AAD4A5CA1D416B9988FC308869765&utm_source=hybris-campaign&utm_medium=email&utm_campaign=000_WANJ01_0000020639_HSCR_41598_CON1_GL_PHSS_TOP21_T100_Phys&utm_content=EN_internal_38720_20220321&mkt-key=42010A0550671EDA9BA9E11DF2291A52">Scientific Reports.</a></p>

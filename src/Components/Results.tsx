@@ -7,6 +7,8 @@ import imgDownloads from "../img/imgDownloads.png";
 import imgViBioM2022 from "../img/ViBioM2022banner.jpg";
 import poster from "../img/poster.png";
 import poster2 from "../img/poster2.png";
+import poster3 from "../img/poster3.png";
+import poster4 from "../img/poster4.png";
 
 export default function Results() {
   return (
@@ -99,9 +101,11 @@ export default function Results() {
               </div>
               <div className="row">
                 <div className="col-md-12">
+                  <div className="section-heading">
                   <b><TranslatedText textKey="results_text_Downloads_poster" /></b>
-                  <br /> <br />
-
+                      <br />
+                      <br /><br /><br /><br />
+                    </div>
                 </div>
 
                 <div className="col-md-6">
@@ -116,6 +120,25 @@ export default function Results() {
                   <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><img src={poster2} className="img-responsive center-block" alt="Impact of SARS-CoV-2 poster" /></a>
 
                 </div>
+
+                <div className="col-md-6">
+                <br /> <br />
+
+                  <TranslatedText textKey="results_text_Downloads_3_poster" />
+                  <br /> <br />
+                  <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Circuito secuenciacion genomica del SARS-CoV-2 Andalucia.pdf"><img src={poster3} className="img-responsive center-block" alt="andalusian circuit poster" /></a>
+                </div>
+
+                <div className="col-md-6">
+                <br /> <br />
+
+                  <TranslatedText textKey="results_text_Downloads_4_poster" />
+                  <br /> <br />
+                  <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/poster_SEIMC.pdf"><img src={poster4} className="img-responsive center-block" alt="Impact of SARS-CoV-2 poster" /></a>
+                </div>
+
+
+
               </div>
             </div>
 
