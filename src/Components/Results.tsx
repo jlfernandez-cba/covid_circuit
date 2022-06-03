@@ -5,6 +5,7 @@ import phylogeny from "../img/phylogeny.png";
 import geography from "../img/geography.png";
 import imgDownloads from "../img/imgDownloads.png";
 import imgViBioM2022 from "../img/ViBioM2022banner.jpg";
+import seimc2022 from "../img/seimc2022.png";
 import poster from "../img/poster.png";
 import poster2 from "../img/poster2.png";
 import poster3 from "../img/poster3.png";
@@ -119,6 +120,21 @@ export default function Results() {
                   <br /> <br />
                   <a target="_blank" rel="noreferrer" href="https://www.clinbioinfosspa.es/files/posters/Impact_of_SARS-CoV-2.pdf"><img src={poster2} className="img-responsive center-block" alt="Impact of SARS-CoV-2 poster" /></a>
 
+                </div>
+                <div className="col-md-12">
+
+                <br /><br />
+                <br /><br />
+                  <a target="_blank" rel="noreferrer" href="https://seimc2022.org/"><img src={seimc2022} className="img-responsive center-block" alt="seimc 2022 banner" /></a>
+                <br /><br /><br /><br />
+                </div>
+
+                <div className="col-md-12">
+                  <div className="section-heading">
+                  <b><TranslatedText textKey="results_text_Downloads_poster" /></b>
+                      <br />
+                      <br /><br />
+                    </div>
                 </div>
 
                 <div className="col-md-6">
