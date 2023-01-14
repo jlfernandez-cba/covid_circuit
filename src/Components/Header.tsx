@@ -23,9 +23,9 @@ function Header() {
             <Nav>
               <NavLink className="navElement" to="COVID_circuit/about"><TranslatedText textKey="menuLink-about" /></NavLink>
               <NavLink className="navElement" to="COVID_circuit/results"><TranslatedText textKey="menuLink-results" /></NavLink>
-              <NavLink className="navElement" to="COVID_circuit/clinical"><TranslatedText textKey="menuLink-clinical" /></NavLink>
+              {/* <NavLink className="navElement" to="COVID_circuit/clinical"><TranslatedText textKey="menuLink-clinical" /></NavLink> */}
               <a className="navElement"
-                href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all"
+                href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest"
                 target="_blank"
                 rel="noreferrer"
                 data-id="localNextrain"

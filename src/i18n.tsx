@@ -74,7 +74,7 @@ const translations = {
 
     "results_text_3":
       <p className="text-justify text-center" >
-        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage">A local instance of NextStrain</a>{" "}represent all the samples currently sequenced:<br /></p>
+        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest">A local instance of NextStrain</a>{" "}represent all the samples currently sequenced:<br /></p>
     ,
     "results_text_relatedWorks":
       <h4 style={{ fontSize: 20 }}>Another related works</h4>
@@ -167,7 +167,7 @@ const translations = {
     ,
     "results_text_3":
       <p className="text-justify text-center" >
-        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage"> Una instancia local de NextStrain </a> {""}representa las muestras secuenciadas actualmente:<br /></p>
+        <a target="_blank" rel="noreferrer" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest"> Una instancia local de NextStrain </a> {""}representa las muestras secuenciadas actualmente:<br /></p>
     ,
     "results_text_relatedWorks":
       <h4 style={{ fontSize: 20 }}>Otros trabajos relacionados</h4>
