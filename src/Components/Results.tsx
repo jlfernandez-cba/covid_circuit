@@ -10,8 +10,22 @@ import poster from "../img/poster.png";
 import poster2 from "../img/poster2.png";
 import poster3 from "../img/poster3.png";
 import poster4 from "../img/poster4.png";
+import { useEffect, useState } from "react";
+
+
+function randomString(length: number) {
+  const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const value = Array.from({ length: length }).map((value: unknown) => characters[Math.floor(Math.random() * characters.length)]).join('');
+  console.log(value);
+  return value;
+}
+
 
 export default function Results() {
+  const [randomValue, setRandomValue] = useState(randomString(16));
+  useEffect(() => {
+    setRandomValue(randomString(16));
+  }, []);
   return (
     <div className="page-section" id="results">
       <div className="container">
@@ -52,10 +66,10 @@ export default function Results() {
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href="https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.png"
+                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
                 >
                   <img
-                    src="https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.png"
+                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
                     className="img-responsive center-block"
                     alt="lineage_evolution"
                   />
@@ -66,10 +80,10 @@ export default function Results() {
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href="https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.png"
+                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
                 >
                   <img
-                    src="https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.png"
+                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
                     className="img-responsive center-block"
                     alt="all_lineages_distribution"
                   />
@@ -79,10 +93,10 @@ export default function Results() {
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href="https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineage_distribution.png"
+                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
                 >
                   <img
-                    src="https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineage_distribution.png"
+                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
                     className="img-responsive center-block"
                     alt="omicron_lineage_distribution"
                   />
@@ -95,10 +109,10 @@ export default function Results() {
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href="https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.png"
+                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
                 >
                   <img
-                    src="https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.png"
+                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
                     className="img-responsive center-block"
                     alt="sequencing_evolution"
                   />
@@ -125,7 +139,7 @@ export default function Results() {
                   frameBorder="0"
                   title="andalucia sars-cov tree"
                   className="embed-responsive-item"
-          
+
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=tree&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
                 <a target="_blank" rel="noreferrer noopener" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest">
                   {" "}
@@ -140,7 +154,7 @@ export default function Results() {
                   frameBorder="0"
                   title="andalucia sars-cov map"
                   className="embed-responsive-item"
-               
+
                   src="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-all?c=lineage&d=map&onlyPanels=TRUE&sidebar=closed" ></iframe> */}
                 <a target="_blank" rel="noreferrer noopener" href="http://nextstrain.clinbioinfosspa.es/SARS-COV-2-latest">
                   <img src={geography} className="img-responsive center-block" alt="phylogeny" />
