@@ -12,9 +12,11 @@ import poster3 from "../img/poster3.png";
 import poster4 from "../img/poster4.png";
 import { useEffect, useState } from "react";
 
+import Box from '@mui/material/Box';
+
 
 function randomString(length: number) {
-  const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   const value = Array.from({ length: length }).map((value: unknown) => characters[Math.floor(Math.random() * characters.length)]).join('');
   console.log(value);
   return value;
@@ -61,64 +63,72 @@ export default function Results() {
               <TranslatedText textKey="results_text_2" />
             </div>
 
-            <div className="row">
-              <div className="col-md-4">
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
-                >
-                  <img
-                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
-                    className="img-responsive center-block"
-                    alt="lineage_evolution"
-                  />
-                </a>
-              </div>
+            <Box display="flex" flexDirection="column" alignItems="center" gap={1}>
 
-              <div className="col-md-4">
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
-                >
-                  <img
-                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
-                    className="img-responsive center-block"
-                    alt="all_lineages_distribution"
-                  />
-                </a>
-              </div>
-              <div className="col-md-4">
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
-                >
-                  <img
-                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
-                    className="img-responsive center-block"
-                    alt="omicron_lineage_distribution"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-md-12">
-                <a
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
-                >
-                  <img
-                    src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
-                    className="img-responsive center-block"
-                    alt="sequencing_evolution"
-                  />
-                </a>
-              </div>
-            </div>
+              <Box display="flex" flexDirection="row" alignItems="center" gap={1}>
+                <Box flexGrow={1} flexShrink={1}>
+                  <a
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
+                  >
+                    <img
+                      src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks.svg?random=${randomValue}`}
+                      className="img-responsive center-block"
+                      alt="lineage_evolution"
+                    />
+                  </a>
+                </Box>
+                <Box flexGrow={1} flexShrink={1}>
+                  <a
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
+                  >
+                    <img
+                      src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_lineages_distribution.svg?random=${randomValue}`}
+                      className="img-responsive center-block"
+                      alt="all_lineages_distribution"
+                    />
+                  </a>
+                </Box>
+                <Box flexGrow={1} flexShrink={1}>
+                  <a
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
+                  >
+                    <img
+                      src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/omicron_lineages_distribution.svg?random=${randomValue}`}
+                      className="img-responsive center-block"
+                      alt="omicron_lineage_distribution"
+                    />
+                  </a>
+                </Box>
+              </Box>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
+              >
+                <img
+                  src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/sequencing_evolution.svg?random=${randomValue}`}
+                  className="img-responsive center-block"
+                  alt="sequencing_evolution"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_samples_general_lineages.svg?random=${randomValue}`}
+              >
+                <img
+                  src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/all_samples_general_lineages.svg?random=${randomValue}`}
+                  className="img-responsive center-block"
+                  alt="All samples general lineages"
+                />
+              </a>
+            </Box>
 
             <div className="col-md-12">
               <br />
@@ -319,8 +329,8 @@ export default function Results() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </div >
+      </div >
+    </div >
   );
 }
