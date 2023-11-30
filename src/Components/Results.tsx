@@ -128,6 +128,17 @@ export default function Results() {
                   alt="All samples general lineages"
                 />
               </a>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks_proportions.svg?random=${randomValue}`}
+              >
+                <img
+                  src={`https://www.clinbioinfosspa.es/Covid_circuit_imgs/lineage_evolution_latestweeks_proportions.svg?random=${randomValue}`}
+                  className="img-responsive center-block"
+                  alt="Weekly evolution of lineage proportions"
+                />
+              </a>
             </Box>
 
             <div className="col-md-12">

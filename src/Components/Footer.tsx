@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-6">
             <div className="copyright-text">
-              <p><a href="https://github.com/onit4ku" target="_blank" rel="noreferrer"><span style={{ color: '#fff' }}>Copyright</span></a> ©   <a href="https://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer">Clinical Bioinformatics Area</a> 2021 - 2022</p>
+              <p><a href="https://github.com/onit4ku" target="_blank" rel="noreferrer"><span style={{ color: '#fff' }}>Copyright</span></a> ©   <a href="https://www.clinbioinfosspa.es/" target="_blank" rel="noreferrer">Clinical Bioinformatics Area</a> 2021 - {new Date().getFullYear()}</p>
             </div>
           </div>
           <div className="col-md-6">
